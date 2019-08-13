@@ -31,3 +31,5 @@ cypress/videos/
 
 # Locize settings
 .locize
+docker/OpenResty-Orthanc-Keycloak/logs/
+docker/OpenResty-Orthanc/logs/
