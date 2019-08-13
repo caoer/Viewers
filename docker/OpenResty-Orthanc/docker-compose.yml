@@ -43,3 +43,5 @@ services:
       # Persist data
       - ./volumes/orthanc-db/:/var/lib/orthanc/db/
     restart: unless-stopped
+    ports:
+      - '8042:8042'
