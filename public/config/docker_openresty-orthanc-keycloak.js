@@ -6,9 +6,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'Orthanc',
-        wadoUriRoot: 'http://127.0.0.1/pacs/wado',
-        qidoRoot: 'http://127.0.0.1/pacs/dicom-web',
-        wadoRoot: 'http://127.0.0.1/pacs/dicom-web',
+        wadoUriRoot: 'http://moyu.entronova.com/pacs/wado',
+        qidoRoot: 'http://moyu.entronova.com/pacs/dicom-web',
+        wadoRoot: 'http://moyu.entronova.com/pacs/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
@@ -28,9 +28,9 @@ window.config = {
     {
       // ~ REQUIRED
       // Authorization Server URL
-      authority: 'http://127.0.0.1/auth/realms/ohif',
+      authority: 'http://moyu.entronova.com/auth/realms/ohif',
       client_id: 'ohif-viewer',
-      redirect_uri: 'http://127.0.0.1/callback', // `OHIFStandaloneViewer.js`
+      redirect_uri: 'http://moyu.entronova.com/callback', // `OHIFStandaloneViewer.js`
       // "Authorization Code Flow"
       // Resource: https://medium.com/@darutk/diagrams-of-all-the-openid-connect-flows-6968e3990660
       response_type: 'code',
@@ -39,4 +39,4 @@ window.config = {
       post_logout_redirect_uri: '/logout-redirect.html',
     },
   ],
-}
+};
