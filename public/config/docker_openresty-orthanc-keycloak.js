@@ -28,9 +28,9 @@ window.config = {
     {
       // ~ REQUIRED
       // Authorization Server URL
-      authority: 'http://moyu.entronova.com/auth/realms/ohif',
+      authority: 'https://moyu.entronova.com/auth/realms/ohif',
       client_id: 'ohif-viewer',
-      redirect_uri: 'http://moyu.entronova.com/callback', // `OHIFStandaloneViewer.js`
+      redirect_uri: 'https://moyu.entronova.com/callback', // `OHIFStandaloneViewer.js`
       // "Authorization Code Flow"
       // Resource: https://medium.com/@darutk/diagrams-of-all-the-openid-connect-flows-6968e3990660
       response_type: 'code',
