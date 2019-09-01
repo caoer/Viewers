@@ -6,9 +6,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'Orthanc',
-        wadoUriRoot: 'http://moyu.entronova.com/pacs/wado',
-        qidoRoot: 'http://moyu.entronova.com/pacs/dicom-web',
-        wadoRoot: 'http://moyu.entronova.com/pacs/dicom-web',
+        wadoUriRoot: 'https://moyu.entronova.com/pacs/wado',
+        qidoRoot: 'https://moyu.entronova.com/pacs/dicom-web',
+        wadoRoot: 'https://moyu.entronova.com/pacs/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
