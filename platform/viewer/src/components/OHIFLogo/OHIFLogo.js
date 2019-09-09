@@ -9,10 +9,10 @@ function OHIFLogo() {
       target="_blank"
       rel="noopener noreferrer"
       className="header-brand"
-      href="http://ohif.org"
+      href="http://entronova.com"
     >
       <Icon name="ohif-logo" className="header-logo-image" />
-      <div className="header-logo-text">Open Health Imaging Foundation</div>
+      <div className="header-logo-text">Entronova</div>
     </a>
   );
 }
